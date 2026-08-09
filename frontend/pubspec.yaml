@@ -1,0 +1,42 @@
+name: smart_spend_ai
+description: "A new Flutter project"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.9
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.5
+  intl: ^0.20.3
+  fl_chart: ^1.2.0
+  image_picker: ^1.2.3
+  google_mlkit_text_recognition: ^0.16.0
+  http: ^1.6.0
+  uuid: ^4.6.0
+  permission_handler: ^12.0.3
+  pdf: ^3.11.0
+  printing: ^5.13.4
+  flutter_secure_storage: ^10.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
+
+flutter:
+  uses-material-design: true
