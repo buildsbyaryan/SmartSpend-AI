@@ -1,6 +1,6 @@
 class ApiConstants {
   static const String baseUrl =
-      "https://smart-spend-ai-dun.vercel.app/api";
+      "https://smartspend-ai-wvcl.onrender.com/api";
 
   // ==========================
   // AUTH
