@@ -1,33 +1,84 @@
 class ApiConstants {
-  static const String baseUrl = "http://192.168.1.2:5000/api";
+  static const String baseUrl =
+      "https://smart-spend-ai-dun.vercel.app/api";
 
-  // Auth
+  // ==========================
+  // AUTH
+  // ==========================
 
-  static const String register = "$baseUrl/auth/register";
+  static const String register =
+      "$baseUrl/auth/register";
 
-  static const String login = "$baseUrl/auth/login";
+  static const String login =
+      "$baseUrl/auth/login";
 
-  // Expense
+  // ==========================
+  // EXPENSE
+  // ==========================
 
-  static const String expenses = "/expenses";
+  static const String expenses =
+      "$baseUrl/expenses";
 
-  // Income
+  // ==========================
+  // INCOME
+  // ==========================
 
-  static const String income = "/incomes";
+  static const String income =
+      "$baseUrl/incomes";
 
-  // Budget
+  // ==========================
+  // BUDGET
+  // ==========================
 
-  static const String budget = "/budgets";
+  static const String budget =
+      "$baseUrl/budgets";
 
-  // Analytics
+  // ==========================
+  // ANALYTICS
+  // ==========================
 
-  static const String analytics = "$baseUrl/analytics";
+  static const String analytics =
+      "$baseUrl/analytics";
 
-  // Notification
+  // ==========================
+  // NOTIFICATIONS
+  // ==========================
 
-  static const String notification = "$baseUrl/notifications";
+  static const String notification =
+      "$baseUrl/notifications";
 
-  // Dashboard
+  // ==========================
+  // DASHBOARD
+  // ==========================
 
-  static const String dashboard = "$baseUrl/dashboard";
+  static const String dashboard =
+      "$baseUrl/dashboard";
+
+  // ==========================
+  // BALANCE
+  // ==========================
+
+  static const String balance =
+      "$baseUrl/balance";
+
+  // ==========================
+  // INSIGHTS
+  // ==========================
+
+  static const String insights =
+      "$baseUrl/insights";
+
+  // ==========================
+  // PROFILE
+  // ==========================
+
+  static const String profile =
+      "$baseUrl/profile";
+
+  // ==========================
+  // REPORTS
+  // ==========================
+
+  static const String reports =
+      "$baseUrl/reports";
 }
