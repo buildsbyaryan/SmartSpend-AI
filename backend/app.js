@@ -39,7 +39,7 @@ profileRoutes
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/expenses", expenseRoutes);
-app.use("/api/incomes", incomeRoutes);
+app.use("/api/income", incomeRoutes);
 app.use(
 "/api/balance",
 balanceRoutes
